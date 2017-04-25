@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Reproducto de música</title>
+</head>
+<body>
+	<script type="text/javascript" src="assets/js/javascript.js"></script>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-4 colmd-offset-4"></div>
+				<img src="assets/image/orig_480113.jpg" width="300" alt="">
+		</div>
+	  </div>
+	<div id="reproductorBox"></div>
+	<select id = "selectTrack" multiple onchange="cambiarTrack(this.options[this.selectedIndex]);">
+	<option path="assets/audio/Dragon Ball Z - Shala Head Shala (opening) HD.mp3">Dragon Ball Z - Shala Head Shala</option>
+	<option path="assets/audio/Sakura Card Captor opening latino 1080p HD ( sin créditos ).mp3">Sakura Card Captor opening</option>
+	<option path="assets/audio/Ranma Op-Latino 1080p (Full HD).mp3">Ranma 1/2</option>
+	</select>
+<script>cargarReproductor();</script>
+</audio>
+</body>
+</html>
